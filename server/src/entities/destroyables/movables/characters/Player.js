@@ -640,7 +640,7 @@ Player.prototype.moveDelay = 250;
 /** @type {Number} Set this for it to be sent to the client too, so it can tween/animate at the right speed. */
 Player.prototype.moveRate = 250;
 /** @type {Number} */
-Player.prototype.maxHitPoints = 200;
+Player.prototype.maxHitPoints = 100;
 /** @type {Number} */
 Player.prototype.hitPoints = Player.prototype.maxHitPoints;
 /** @type {Number} */
@@ -652,7 +652,7 @@ Player.prototype.energyRegenRate = 1000;
 /** @type {Number|null} */
 Player.prototype.energyRegenLoop = null;
 /** @type {Number} */
-Player.prototype.glory = 100;
+Player.prototype.glory = 100000;
 /** @type {Function} */
 Player.prototype.CorpseType = require("../../corpses/CorpseHuman");
 

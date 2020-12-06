@@ -89,7 +89,7 @@
 
 - name: Commander
   gloryValue: 200
-  maxHitPoints: 200
+  maxHitPoints: 5
   defence: 40
   viewRange: 6
   moveRate: 600
