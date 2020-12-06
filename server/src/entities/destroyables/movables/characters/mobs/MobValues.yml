@@ -74,6 +74,7 @@
 
 - name: Knight
   gloryValue: 40
+  maxHitPoints: 20
   defence: 40
   viewRange: 6
   moveRate: 850
@@ -89,7 +90,7 @@
 
 - name: Commander
   gloryValue: 200
-  maxHitPoints: 5
+  maxHitPoints: 20
   defence: 40
   viewRange: 6
   moveRate: 600
