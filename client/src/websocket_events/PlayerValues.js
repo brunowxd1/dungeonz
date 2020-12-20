@@ -54,7 +54,7 @@ export default (eventResponses) => {
         if (_this.player.hitPoints <= 0) {
             _this.GUI.respawnPanel.show();
             
-            _this.changeBackgroundMusic(_this.sounds.playerDeathLoop);
+            _this.changeBackgroundMusic(_this.soundManager.player.sounds.deathLoop);
         }
         _this.GUI.updateHitPointCounters();
     };
