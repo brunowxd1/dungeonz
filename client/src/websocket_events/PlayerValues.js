@@ -66,7 +66,7 @@ export default (eventResponses) => {
 
     eventResponses.defence_value = (data) => {
         _this.player.defence = data;
-        _this.GUI.updateDefenceCounters();
+        _this.GUI.updateDefenceCounter();
     };
 
     eventResponses.glory_value = (data) => {
