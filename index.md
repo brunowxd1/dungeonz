@@ -31,10 +31,10 @@ Here you can find basically everything that goes into the game, what is currentl
 
 The creation of Dungeonz is a collaborative effort, with content and mechanics able to be added by members of the community.
 
-It is a non-commercial project, so there are no promises of "rev-share" or "backpay when the game makes money" or whatever. That isn't the goal here.
+It is a non-commercial project, so there are no promises of *"rev-share"* or *"backpay when the game makes money"* or whatever. That isn't the goal here.
 This project is ideal for beginners, hobbyists, students, portfolio builders, work experience seekers, and of course regular players of the game curious to see how the magic happens.
 
-## Getting started
+# Getting started
 First, you should have [played the game](https://dungeonz.io/) to get a feel for what it is like, what has been done so far, what looks lacking, and to generally get a good context for what you might want to get started with.
 
 The main contribution areas are code, audio, visual, with other smaller ones like mapping, balance, translations and testing.
@@ -44,15 +44,25 @@ You probably came to this project already specialising in one of these. There ar
 ## Contributing
 With so many moving parts to a video game, especially a one like this, it is important to keep the project managed well. I try to run the project like you would find in an actual software company, where each thing being worked on should be detailed, tracked, completed (or cancelled), tested and finally added to the game.
 
-This is done using the main tasks backlog on the GitHub issues page: https://github.com/Arcanorum/dungeonz/issues
+This is done using the main tasks backlog on the GitHub issues page.
 
-This is where pretty much everything that is proposed to change about the game should start
-From initial development through to being added to the live game, things should be in this backlog in some way.
+#### Tasks backlog: https://github.com/Arcanorum/dungeonz/issues
 
+There you can filter by whatever topic interests you using the tag filters.
+
+<img src="resources/issue-filters.png" width="40%"/>
+
+This is where pretty much everything that is proposed to change about the game should start.
+
+From there, any tasks that are to be grouped together into a larger piece of work, such as a new major feature, will be organised into the project trackers for the major things that are being worked on.
+
+#### Project trackers: https://github.com/Arcanorum/dungeonz/projects
+
+**Once you have found something you want to have a go at, you should let me (or other GitHub project admin) know that you want to start something so it can be marked as in progress.**
 
 ## Basic info
 
-# Tooling - *What engine do you use?*
+### Tooling - *What engine do you use?*
 
 This game doesn't use an off the shelf game engine/centralised project manangement GUI, like Unity, Unreal, GameMaker, etc.
 
@@ -85,38 +95,3 @@ MIT
 Attribution links page
 
 
-You can use the [editor on GitHub](https://github.com/Arcanorum/dungeonz/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Arcanorum/dungeonz/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
