@@ -74,7 +74,7 @@ Proper attribution of all work is expected. This includes original creations sub
 
 The credits page for the game lists the currently used assets for the game, and should be updated when new things are used by the project by more authors.
 
-#### Credits: https://dungeonz.io/credits/
+#### Credits page: https://dungeonz.io/credits/
 
 A "work" or "works" is a piece of artistic work you have created, such as textures, sprites, sound effects, music, story/lore, etc.
 
