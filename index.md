@@ -40,7 +40,7 @@ This is done using the main tasks backlog on the GitHub issues page.
 
 There you can filter by whatever topic interests you using the tag filters.
 
-<img src="resources/issue-filters.gif" width="40%"/>
+<img src="resources/issue-filters.gif" width="60%"/>
 
 This is where pretty much everything that is proposed to change about the game should start.
 
