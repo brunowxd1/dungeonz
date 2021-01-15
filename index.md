@@ -1,14 +1,11 @@
-## Welcome to the Dungeonz project page
+## [https://dungeonz.io/](https://dungeonz.io/)
 
 <img src="resources/dungeonz-banner.png" width="100%"/>
-https://dungeonz.io/
-
 
 ## Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-
-- [Introduction](#introduction)
+  - [Contributing](#contributing)
 - [Project structure](#project-structure)
   - [Committing code](#committing-code)
   - [Adding a new client/service](#adding-a-new-clientservice)
@@ -20,7 +17,7 @@ https://dungeonz.io/
     - [`docker-compose.core.yml`](#docker-composecoreyml)
 - [FAQ/Issues](#faqissues)
 
-# Introduction
+# Introduction 🧙
 Greetings! You have stumbled upon the work area for Dungeonz, the free, open-source, browser based, massively multiplayer online RPG.
 
 This area is intended for potential contributors who are interested in the project, but don't know where to begin. Any info that someone might want to find about joining and working on the project will probably be here somewhere, and if not, let me know and I'll update this documentation.
@@ -41,7 +38,7 @@ The main contribution areas are code, audio, visual, with other smaller ones lik
 
 You probably came to this project already specialising in one of these. There are guides tailored for contributors that describe the general requirements for each field, that you can jump to if you just want to skip whatever doesn't apply to you.
 
-## Contributing
+# Contributing
 With so many moving parts to a video game, especially a one like this, it is important to keep the project managed well. I try to run the project like you would find in an actual software company, where each thing being worked on should be detailed, tracked, completed (or cancelled), tested and finally added to the game.
 
 This is done using the main tasks backlog on the GitHub issues page.
@@ -60,38 +57,55 @@ From there, any tasks that are to be grouped together into a larger piece of wor
 
 **Once you have found something you want to have a go at, you should let me (or other GitHub project admin) know that you want to start something so it can be marked as in progress.**
 
-## Basic info
-
-### Tooling - *What engine do you use?*
+# Tooling - *"What engine is used?"*
 
 This game doesn't use an off the shelf game engine/centralised project manangement GUI, like Unity, Unreal, GameMaker, etc.
 
-As a game that is also a website, it uses many of the tools of the web development trade. The "engine" is a custom setup that brings together various free tools that are each specialised for a certain task., to cover JavaScript files that are built and run by NodeJS, which is a program for running JavaScript outside of a web browser.
+As a game that is also a website, it uses many of the tools of the web development trade. The "engine" is a custom setup that brings together various tools that are all free, widely used, and reasonably well documented, that are each specialised for a certain task.
 
+To be able to run and edit the game yourself on your own computer, there is a techincal setup guide that should provide a quick and easy set of instructions to get everything working with minimal messing about and little techincal knowledge. It is basically just installing some other programs that the main game code needs to run, then downloading said code and running it.
 
+The game is written almost entirely in JavaScript, using NodeJS to build the client and run the server. NodeJS is a tool that allows JavaScript to be ran outside of a web browser, and can be loosely thought of as the "engine" that takes the outputs of the other tools to create the game.
 
+**Though, setting up and running the game on your own computer is not necessary for many kinds of contributions.**
 
-## Links and resources
-Tiled map editor
-Phaser
-React
-NodeJS
+A lot of tasks are fairly self contained, mainly creating assets (sprites, sounds), and can just be passed to someone else who does have the rest of the project set up, to integrate into the game on your behalf.
 
-# Contributing
+To let people see what the implemented asset is like in game, there is a public test server that is updated with recent work much more often than the live game, and is used for faster turnarounds for testing and feedback, before things go into an update for the live game.
 
-
-See the relevant guides for 
-
+#### Public test server: https://test.dungeonz.io/
 
 # Attribution
-Proper crediting of all work is expected.
+Proper attribution of all work is expected. This includes original creations submitted by contributors, and anything used from somewhere else (such as OpenGameArt.com or other asset sharing resource).
 
+The credits page for the game lists the currently used assets for the game, and should be updated when new things are used by the project by more authors.
 
-https://dungeonz.io/credits/
-~Individually licensed to the project
+#### Credits: https://dungeonz.io/credits/
 
-MIT
+A "work" or "works" is a piece of artistic work you have created, such as textures, sprites, sound effects, music, story/lore, etc.
 
-Attribution links page
+This project uses the [MIT license](https://github.com/Arcanorum/dungeonz/blob/master/LICENSE), and as such can be copied, modified, redistributed, and even used commercially by anyone. Any works you wish to submit will also be included under the project's MIT license.
 
+Under MIT, attribution is not required, but is given anyway as a courtesy.
 
+An attribution may (but doesn't have to) include:
+- The specific works you did.
+- Your name and/or nickname/alias.
+- A link to your website, portfolio, or other profile.
+
+For example:
+> Scamp character animation by Arcan (https://github.com/Arcanorum)
+
+However, if you do not agree to the MIT terms for your submissions, you can submit them using another license that suits your needs, and that one shall take precedence.
+
+For example, if you want to require attribution (credit) for use of your work by anyone else who uses it (such as someone taking the work and using it in another game), you probably want to use one of the CC-BY licenses (https://creativecommons.org/about/cclicenses/). This can be discussed with a project maintainer (i.e. Arcan) as needed.
+
+# Links and resources
+  - [Live game](https://dungeonz.io/)
+  - [Test server](https://test.dungeonz.io/)
+  - [NodeJS](https://nodejs.org/en/) (JavaScript runtime)
+  - [MongoDB](https://www.mongodb.com/) (player accounts DBMS)
+  - [Phaser](http://phaser.io/) (frontend rendering, input & audio playback framework)
+  - [React](https://reactjs.org/) (frontend GUI and build framework)
+  - [Free Texture Packer](http://free-tex-packer.com/) (texture packer)
+  - [Tiled](https://www.mapeditor.org/) (map editor)
