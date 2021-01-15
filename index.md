@@ -3,15 +3,15 @@
 <img src="resources/dungeonz-banner.png" width="100%"/>
 
 ## Contents
-- [Introduction](#introduction🧙)
+- [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [Tooling](#tooling-what-engine-is-used)
+- [Tooling](#tooling)
 - [Attribution](#attribution)
 - [Links and resources](#links-and-resources)
 
-# Introduction🧙
-Greetings! You have stumbled upon the work area for Dungeonz, the free, open-source, browser based, massively multiplayer online RPG.
+# Introduction
+Greetings! 🧙 You have stumbled upon the work area for Dungeonz, the free, open-source, browser based, massively multiplayer online RPG.
 
 This area is intended for potential contributors who are interested in the project, but don't know where to begin. Any info that someone might want to find about joining and working on the project will probably be here somewhere, and if not, let me know and I'll update this documentation.
 
@@ -50,7 +50,8 @@ From there, any tasks that are to be grouped together into a larger piece of wor
 
 **Once you have found something you want to have a go at, you should let me (or other GitHub project admin) know that you want to start something so it can be marked as in progress.**
 
-# Tooling - *"What engine is used?"*
+# Tooling
+> *What engine is the game made with?*
 
 This game doesn't use an off the shelf game engine/centralised project manangement GUI, like Unity, Unreal, GameMaker, etc.
 
