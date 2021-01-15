@@ -3,10 +3,10 @@
 <img src="resources/dungeonz-banner.png" width="100%"/>
 
 ## Contents
-- [Introduction](#introduction)
+- [Introduction](#introduction-🧙)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [Tooling](#tooling)
+- [Tooling](#tooling-*"What engine is used?"*)
 - [Attribution](#attribution)
 - [Links and resources](#links-and-resources)
 
