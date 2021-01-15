@@ -10,7 +10,7 @@
 - [Attribution](#attribution)
 - [Links and resources](#links-and-resources)
 
-# Introduction
+# Introduction 🧙
 Greetings! You have stumbled upon the work area for Dungeonz, the free, open-source, browser based, massively multiplayer online RPG.
 
 This area is intended for potential contributors who are interested in the project, but don't know where to begin. Any info that someone might want to find about joining and working on the project will probably be here somewhere, and if not, let me know and I'll update this documentation.
