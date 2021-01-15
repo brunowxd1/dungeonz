@@ -5,17 +5,10 @@
 ## Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-  - [Contributing](#contributing)
-- [Project structure](#project-structure)
-  - [Committing code](#committing-code)
-  - [Adding a new client/service](#adding-a-new-clientservice)
-  - [Adding a new package](#adding-a-new-package)
-  - [Adding dependencies](#adding-dependencies)
-- [Docker](#docker)
-  - [Recommended Docker setup (tutorial)](#recommended-docker-setup-tutorial)
-    - [`docker-compose.runtime.yml`](#docker-composeruntimeyml)
-    - [`docker-compose.core.yml`](#docker-composecoreyml)
-- [FAQ/Issues](#faqissues)
+- [Contributing](#contributing)
+- [Tooling](#tooling)
+- [Attribution](#attribution)
+- [Links and resources](#links-and-resources)
 
 # Introduction 🧙
 Greetings! You have stumbled upon the work area for Dungeonz, the free, open-source, browser based, massively multiplayer online RPG.
