@@ -90,6 +90,8 @@ An attribution may (but doesn't have to) include:
 For example:
 > Scamp character animation by Arcan (https://github.com/Arcanorum)
 
+You should be asked how you want to be credited when you submit something.
+
 However, if you do not agree to the MIT terms for your submissions, you can submit them using another license that suits your needs, and that one shall take precedence.
 
 For example, if you want to require attribution (credit) for use of your work by anyone else who uses it (such as someone taking the work and using it in another game), you probably want to use one of the CC-BY licenses (https://creativecommons.org/about/cclicenses/). This can be discussed with a project maintainer (i.e. Arcan) as needed.
